@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>MY TO-DO LIST</h1>
+    <button>Dark mode toggle</button>
+  </header>
+  <main>    
+    <section>
+      <h2>Add New Task</h2>
+      <input type="text" placeholder="Type new task here">
+      <button type="submit">Add New Task</button>
+    </section>
+    <section>
+      <h2>Tasks</h2>
+      <div>
+        <p>Choose a filter: </p>
+        <input type="radio" id="all-tasks" name="filter" value="All">
+        <label for="all-tasks">All</label>
+        <input type="radio" id="completed-tasks" name="filter" value="Completed">
+        <label for="completed-tasks">Completed</label>
+        <input type="radio" id="uncompleted-tasks" name="filter" value="Uncompleted">
+        <label for="uncompleted-tasks">Uncompleted</label>
+      </div>
+      <ul>
+        <li>
+          <button>&check;</button>
+          <p>This is an example of a task</p>
+          <p><em>Created: 2025-10-5</em></p>
+          <button>&#128465;</button>
+        </li>
+        <li>
+          <button>&check;</button>
+          <p>This is an example of a task</p>
+          <p><em>Created: 2025-10-5</em></p>
+          <button>&#128465;</button>
+        </li>
+        <li>
+          <button>&check;</button>
+          <p>This is an example of a task</p>
+          <p><em>Created: 2025-10-5</em></p>
+          <button>&#128465;</button>
+        </li>
+      </ul>      
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 John Wesley. All rights reserved.</p>
+  </footer>
+  <script src="script.js" defer></script>
+</body>
+</html>
